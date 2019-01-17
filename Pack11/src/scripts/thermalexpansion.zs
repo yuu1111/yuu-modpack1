@@ -3,6 +3,13 @@ print("Thermal Expansion");
 //マシンフレーム
 recipes.remove(<thermalexpansion:frame>);
 recipes.addShaped(<thermalexpansion:frame>,
- [[<thermalfoundation:material:160>, <minecraft:glass>, <thermalfoundation:material:160>],
-  [<minecraft:glass>, <enderio:item_material:1>, <minecraft:glass>],
-  [<thermalfoundation:material:160>, <minecraft:glass>, <thermalfoundation:material:160>]]);
+ [[<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>],
+  [<ore:circuitAdvanced>, <ore:machineBlockBasic>, <ore:circuitAdvanced>],
+  [<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>]]);
+
+//装置フレーム
+recipes.remove(<thermalexpansion:frame:64>);
+  recipes.addShaped(<thermalexpansion:frame:64>,
+   [[<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>],
+    [<ore:circuitAdvanced>, <ore:machineBlockBasic>, <ore:circuitAdvanced>],
+    [<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>]]);

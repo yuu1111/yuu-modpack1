@@ -7,9 +7,9 @@ recipes.addShaped(<psi:cad_assembler>,
   [<thermalfoundation:material:160>, null, <thermalfoundation:material:160>],
   [null, <thermalfoundation:material:160>, null]]);
 
-  //Programmer
-  recipes.remove(<psi:programmer>);
-  recipes.addShaped(<psi:programmer>,
+//Programmer
+recipes.remove(<psi:programmer>);
+recipes.addShaped(<psi:programmer>,
    [[<thermalfoundation:material:160>, <psi:material>, <thermalfoundation:material:160>],
     [<thermalfoundation:material:160>, null, <thermalfoundation:material:160>],
     [<thermalfoundation:material:160>, null, <thermalfoundation:material:160>]]);

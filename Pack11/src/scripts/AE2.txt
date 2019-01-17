@@ -1,0 +1,12 @@
+print("AE2");
+
+//MEコントローラー
+recipes.remove(<appliedenergistics2:controller>);
+recipes.addShaped(<appliedenergistics2:controller>,
+  [[<draconicevolution:awakened_core>, <ic2:crafting:4>,<draconicevolution:awakened_core>],
+  [<botania:storage:1>, <advanced_solar_panels:crafting:13>, <botania:storage:1>],
+  [<draconicevolution:awakened_core>, <ic2:crafting:4>, <draconicevolution:awakened_core>]]);
+
+//MEドライブ
+  recipes.remove(<appliedenergistics2:drive>);
+  recipes.addShaped(<appliedenergistics2:drive>, [[<thermalfoundation:material:160>, <appliedenergistics2:material:24>, <thermalfoundation:material:160>],[<appliedenergistics2:part:16>, null, <appliedenergistics2:part:16>], [<thermalfoundation:material:160>, <appliedenergistics2:material:24>, <thermalfoundation:material:160>]]);
