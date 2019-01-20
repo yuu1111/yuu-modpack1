@@ -33,10 +33,10 @@ print("ToolMaxDamage");
 <ic2:bronze_shovel>.maxDamage = 1;
 <ic2:bronze_hoe>.maxDamage = 1;
 
-<fp:composite_pickaxe>.maxDamage = 1;
-<fp:composite_axe>.maxDamage = 1;
-<fp:composite_hoe>.maxDamage = 1;
-<fp:composite_spade>.maxDamage = 1;
+#<fp:composite_pickaxe>.maxDamage = 1;
+#<fp:composite_axe>.maxDamage = 1;
+#<fp:composite_hoe>.maxDamage = 1;
+#<fp:composite_spade>.maxDamage = 1;
 
 <cavern:aquamarine_pickaxe>.maxDamage = 1;
 <cavern:aquamarine_shovel>.maxDamage = 1;
